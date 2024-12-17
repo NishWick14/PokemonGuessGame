@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Pokemon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="pokeicon.png" type="image/x-icon">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+          <h4 id="result" class="header">Whos's that Pokemon?</h4>
+          <img id="pokemonImage" alt="Pokemon Imgae">
+          <!-- <img id="pokemonImage" alt="Pokemon Imgae" src=
+          "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"> -->
+          <div id="options" class="options-container">
+            <!-- <button></button>
+            <button></button>
+            <button></button>
+            <button></button> -->
+          </div>
+          <h4 id="points">
+            Points: <span id="pointsValue">0</span>/<span id="totalCount">0</span>
+          </h4>
+    </div>
+    <div id="loadingContainer" class="loadingContainer">
+        <img id="loadingIcon" src="loading_icon.gif" alt="loading...">
+    </div>
+</body>
+</html>
